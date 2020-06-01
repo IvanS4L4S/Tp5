@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	<meta charset="ISO-8859-1">
+	<title>Index</title>
+	<link  rel="stylesheet" href="css/estilos.css"/> 
+	</head>
+	<body>
+	    <div id="d">
+	    
+          <header>
+	          <h1>Liga de fútbol profecional</h1>
+	      </header>
+	       
+	      <nav>
+	         <ul>
+	             <li><a href="index.html">Home</a> </li>
+	             <li><a href="fixture.html">Fixture y resultados</a> </li>
+	             <li><a href="equipos.html">Equipos</a> </li>
+	         </ul>
+	         <div id="welcome">
+	            <h4 th:text=" 'Bienvenido! '+ ${usuario}"></h4>     
+	         </div>
+	      </nav> 
+	      
+	      <section id="s">
+	             <div id="noticias">
+	                 <h1>Noticias</h1>
+	             </div>
+                
+                <div id="e">  
+                </div>
+                
+	           <div id="A">
+	               <img src="img/partido sup.jpg"/>
+	               <h1>12/30/20</h1>
+		               <p>
+		               Nueva noticia de los<br />
+		               partidos <br />
+		               suspendidos por la <br />
+		               cuarentena<br />
+		               </p>
+	           </div>
+	           <div id="A">
+	               <img src="img/repeticion de part.jpg"/>
+	               <h1>13/03/20</h1>
+		               <p>
+		               Repetición de la <br />
+		               transmisciónn en vivo <br />
+		               de la final de la copa<br />
+		               anual de profesional<br />
+		               </p>
+	           </div>
+	           <div id="A">
+	               <img src="img/sorteo1.png"/>
+	               <h1>20/03/20</h1>
+		               <p>
+		               Reprogramción de <br />
+		               sorteos para las <br />
+		               próxima fechas. <br />
+		               </p>
+	           </div>
+	         
+	      </section>
+	      
+	      <aside>
+	         <div id="aus">
+	           <h2>Auspiciante</h2>
+	         </div>
+	         <img src="img/ing.png"/>
+	         <img src="img/visual.png"/>
+	         <img src="img/marvel.gif"/>
+	         <img alt="10px" src="img/cocacola.gif"/>
+	      </aside>
+	     
+	      <footer>
+	          <h2>Pueden contactarnos por:</h2>
+	          <p>FACEBOOK:www.facebook.com/tycsports</p>
+	          <p>TWITTER:www.twitter.com/tycsports</p>
+	          <p>INSTAGRAM:www.instagram.com/tycsports/</p>
+	         
+	         
+	      </footer>
+	     </div> 
+	</body>
+</html>
